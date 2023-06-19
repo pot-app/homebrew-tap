@@ -1,13 +1,13 @@
 cask "pot" do
   arch arm: "aarch64", intel: "x64"
 
-  version "1.6.0"
-  sha256 arm: "27496cf21cc0bb94edae99a32928bd9139ed0931f090b4515c61b2bbd071841a",
-         intel: "558aabd6bb14c14ceee553f0d0a6f1715e1975b20f4ce0c9a8d93a0a8d40bc29"
+  version "1.6.1"
+  sha256 arm:   "eaa9e2df27a822d07dcd691b4a4cc4671b57ac94639351273b2c29939b765a7b",
+         intel: "fa716ae6318456c74c8f34fd21818d137f436589276ca471f42154f28d018198"
 
   url "https://github.com/pot-app/pot-desktop/releases/download/#{version}/pot_#{version}_#{arch}.dmg"
   name "pot"
-  desc "A cross-platform software for text translation."
+  desc "Cross-platform software for text translation"
   homepage "https://github.com/pot-app/pot-desktop"
 
   livecheck do
@@ -20,5 +20,4 @@ cask "pot" do
 
   app "pot.app"
   binary "#{appdir}/pot.app/Contents/MacOS/pot"
-
 end
