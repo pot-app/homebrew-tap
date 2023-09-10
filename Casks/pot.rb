@@ -1,9 +1,9 @@
 cask "pot" do
   arch arm: "aarch64", intel: "x64"
 
-  version "1.12.0"
-  sha256 arm:   "d1abdaecf4cc2d34e1e453644ca95b3d44a1649d02ab9529b29e6e3eb1ca162f",
-         intel: "8c6f1c23b35249489122060563834e3f0327ea194440c89abed958daa2146ac1"
+  version "2.2.0"
+  sha256 arm:   "6521763204c65d9dcea65a31c5dcdc28c4ebf367e1056218527323f2074aa784",
+         intel: "ca542af15e435f6c242a4ce85d55f588a68a2a68d32b315b04551c720bf5b1b3"
 
   url "https://github.com/pot-app/pot-desktop/releases/download/#{version}/pot_#{version}_#{arch}.dmg"
   name "pot"
